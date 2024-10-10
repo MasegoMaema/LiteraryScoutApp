@@ -1,0 +1,123 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.book-app {
+    max-width: 700px;
+    margin: 60px auto;
+    padding: 50px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.book-app:hover {
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    margin-bottom: 40px;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    background: linear-gradient(135deg, black, #ffaf7b);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #999;
+}
+
+/* Search form styling */
+.search-form {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.search-form-input {
+    padding: 12px 20px;
+    width: 280px;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    font-size: 16px;
+    outline: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.search-form-input:focus {
+    border-color: #ffaf7b;
+    box-shadow: 0 4px 12px rgba(255, 175, 123, 0.2);
+}
+
+.search-form-button {
+    padding: 12px 25px;
+    background-color: #3a6073;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-form-button:hover {
+    background-color: #2c485a;
+}
+
+/* Book list styling */
+.book-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.book-item {
+    padding: 20px;
+    background-color: #fafafa;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.book-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.book-item h3 {
+    margin: 0 0 8px;
+    font-size: 1.4rem;
+    color: #3a6073;
+}
+
+.book-item p {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Footer (optional) */
+footer {
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #aaa;
+    text-align: center;
+}

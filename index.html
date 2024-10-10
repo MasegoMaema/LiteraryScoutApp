@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Book Search App</title>
+  </head>
+  <body>
+    <div class="book-app">
+      <header>
+        <h1 class="gradient-text">Literary Scout 📚</h1>
+            <p class="subtitle">Discover more information about your favourite book</p>
+        <form class="search-form" id="search-form">
+          <input
+            type="search"
+            placeholder="Enter book title.."
+            required
+            id="search-form-input"
+            class="search-form-input"
+          />
+          <input type="submit" value="Search" class="search-form-button" />
+        </form>
+      </header>
+      <main>
+        <div class="book-details" id="book-details"></div>
+      </main>
+      <footer>
+        This project was coded by
+        <a href="" target="_blank"> Masego Maema</a>,
+        is
+        <a href="" target="_blank"
+          >open-sourced on GitHub</a
+        >
+        and
+        <a href="" target="_blank"
+          >hosted on Netlify</a
+        >
+      </footer>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
